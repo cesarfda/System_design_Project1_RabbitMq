@@ -10,3 +10,5 @@ The scenario is:
 5. *"Converter"* publishes an event that the video conversion is done and ready to be downloaded to RabbitMQ
 6. *"Notification"* service receives the message and sends a notification to the client with the ID that can be used to download the MP3 File
 7. User authenticates again and uses ID received in the notification to download the MP3 version of the video uploaded.
+
+![Architeture image description](https://github.com/cesarfda/System_design_Project1_RabbitMq/blob/master/System_Design_videoToMp3.png?raw=true)
